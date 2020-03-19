@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头部导航</title>
+    <link rel="stylesheet" href="../css/heard.css">
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function(){
+            $(".h").hover(
+                function(){
+                    // alert($("<div></div>").append($(this).children().next()).html());
+                    $(this).children().next().addClass("xianshi");
+                    $(this).children().addClass("open")
+                },
+                function(){
+                    // alert("移除")
+                    $(this).children().next().removeClass("xianshi")
+                    $(this).children().removeClass("open")
+                }
+            )
+           
+        })
+    </script>
+</head>
+<body>
+    <div class="heard">
+        <div class="heard1">
+            <ul>
+                <li>首页</li>
+                <li>华为官网</li>
+                <li>荣耀官网</li>
+                <li>花粉俱乐部</li>
+                <li>V码(优码购)</li>
+                <li>企业购</li>
+                <li>Select Region</li>
+                <li class="h">
+                    <a href="#">更多精彩</a>
+                    <ul>
+                        <li>EMUL</li>
+                        <li>华为终端云空间</li>
+                        <li>EMUL</li>
+                        <li>EMUL</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="heard2">
+            <ul>
+                <li class="login"><a href="/login.html">请登录</a></li>
+                <li><a href="/zhuce.html">注册</a></li>
+                <li>我的订单</li>
+                <li>客服服务</li>
+                <li>网站导航</li>
+                <li>手机版</li>
+                <li>购物车</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

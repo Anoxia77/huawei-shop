@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.zhuce{
+    width: 100%;
+    height: 800px;
+}
+
+.zhuce_top{
+    width: 100%;
+    height: 67px;
+    background-color: black;
+    color: white;
+    padding-left: 150px;
+}
+
+.zhuce_top img{
+    margin-left: 4px;
+    margin-top: 17px;
+}
+
+.zhuce_top .top_span span{
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 10px;
+    /* float: left; */
+    color: #cccccc;
+}
+
+.zhuce_cen{
+    height: 740px;
+    background-color: #d1d0d0;
+}
+
+.cen_top{
+    width: 100%;
+    height: 35px;
+}
+
+.cen_top .cen_login{
+    float: right;
+    margin-right: 250px;
+    margin-top: -10px;
+}
+
+
+.zhuce_cen .cen_top ul{
+    padding-top: 20px;
+    margin-left: 142px;
+}
+
+.zhuce_cen .cen_top ul li{
+    list-style: none;
+    float: left;
+    width: 120px;
+    height: 35px;
+    background-color: #b40707;
+    line-height: 35px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+.zhuce_cen .cen_top ul li span{
+    padding-left: 25px;
+}
+
+.cen_body{
+    margin-top: 20px;
+    margin-left: 152px;
+    width: 960px;
+    height: 540px;
+    /* border: 1px solid red; */
+    background-color: white;
+    text-align: center;
+}
+
+.cen_body .title {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.cen_body .xtitle{
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.cen_from{
+    width: 470px;
+    margin: auto;
+}
+
+.cen_from .input-group{
+    margin-top: 20px;
+}
+
+
+.bnt_submit button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #b40707;
+    border-radius: 40px;
+    color: white;
+}
+
+.cen_foot{
+    /* width: 100%; */
+    height: 100px;
+    text-align: center;
+}
+
+.cen_foot .foot_x{
+    padding-top: 40px;
+    border-bottom: 1px solid #949393;
+    text-align: center;
+    background: #d1d0d0;
+}
+
+.cen_foot .foot_text{
+    padding-top: 30px;
+    color: #a09d9d;
+}
+
+.cen_foot .foot_f{
+    padding-top: 10px;
+    color: #a09d9d;
+}

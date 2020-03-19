@@ -1,0 +1,276 @@
+.goods{
+    padding-left: 40px;
+    height: 900px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.goods_top .breadcrumb{
+    background-color: white;
+}
+
+.goods_body{
+    /* height: 500px; */
+    background-color: yellowgreen;
+}
+
+.goods_body .body_left{
+    float: left;
+    width: 450px;
+    /* height: 600px; */
+    background-color: rosybrown;
+}
+
+.goods_body .body_left img{
+    width: 450px;
+    height: 450px;
+}
+
+.goods_body .body_left .img_list ul li{
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.goods_body .body_left .img_list ul li:hover{
+    border: 1px solid red;
+}
+
+.goods_body .body_left .img_list img{
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+}
+
+.goods_body .body_right{
+    width: 700px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    margin-top: -20px;
+    /* background-color: royalblue; */
+}
+
+.body_right .right_top .top_text1 h2{ 
+    font-size: 21px;
+}
+
+.body_right .right_cen{
+    height: 200px;
+    margin-top: 10px;
+    background-color: #d1d1d1;
+}
+
+.right_cen  label{
+    float: left;
+    width: 85px;
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+.body_right .right_cen .product-info1{
+    padding-top: 20px;
+}
+
+.body_right .right_cen .product-info1 .info-money{
+    /* float: left; */
+    font-size: 20px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.body_right .right_cen .product-info1 .info-money .money-lab1{
+    color: red;
+}
+
+.body_right .right_cen .product-info1 .info-money .money-lab2{
+    color: #999797;
+    font-size: 16px;
+    text-decoration:line-through;
+}
+
+.body_right .right_cen .product-info2{
+    margin-top: 10px;
+}
+
+.body_right .right_cen .product-info2 .info-list ul li{
+    list-style: none;
+    padding-left: 45px;
+    padding-top: 10px;
+    /* margin-top: 10px; */
+}
+
+.body_right .right_cen .product-info2 .info-list .list-lab{
+    border: 1px solid red;
+    color: red;
+}
+
+
+
+.product-info3 .service-info .service-text1{
+    padding-top: 5px;
+}
+
+.product-info3 .service-info .service-text2{
+    padding-top: 15px;
+    padding-left: 44px;
+}
+
+.product-info5{
+    margin-top: 15px;
+}
+
+
+.product-info5 .info5-lab ul li{
+    float: left;
+    height: 40px;
+    width: 98px;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 10px;
+    
+}
+
+.body_right .right_cen ul li:hover{
+     border: 1px solid #e00b0b;
+}
+
+.chilck{
+    border: 1px solid #e00b0b;
+
+}
+
+.product-info6{
+    padding-top: 45px;
+}
+
+.product-info6 .info6-lab{
+    margin-top: -10px;
+}
+
+.product-info6 .info6-lab ul li{
+    float: left;
+    height: 30px;
+    width: 150px;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+.product-info7{
+    padding-top: 50px;
+}
+
+.product-info7 .info7-lab{
+    float: left;
+    height: 30px;
+    width: 65px;
+    border: 1px solid #e00b0b;
+    text-align: center;
+    padding-top: 6px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.product-info8{
+    padding-top: 40px;
+    /* margin-top: -10px; */
+}
+
+.product-info8 .info8-lab ul{
+    margin-top: -10px;
+}
+
+.product-info8 .info8-lab ul li{
+    float: left;
+    height: 30px;
+    width: 220px;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
+.product-info9{
+    padding-top: 50px;
+}
+
+.product-info9 .info9-lab ul{
+    margin-top: -10px;
+}
+
+
+.product-info9 .info9-lab ul li{
+    float: left;
+    height: 30px;
+    width: 180px;
+    /* border: 1px solid #d1d1d1;
+     */
+     background-color: #d1d1d1;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
+.product-info10{
+    padding-top: 80px;
+}
+
+.product-info10 .info10-lab{
+    float: left;
+    height: 30px;
+    width: 250px;
+    /* border: 1px solid #d1d1d1;
+     */
+     /* background-color: #d1d1d1; */
+    text-align: center;
+    line-height: 15px;
+    padding-top: 8px;
+    margin-left: 10px;
+    color: red;
+}
+
+.buy{
+    padding-top: 50px;
+}
+
+.buy .add{
+    float: left;
+    font-size: 25px;
+}
+
+.buy .sub-buy ul{
+    margin-left: 55px;
+    margin-top: -10px;
+}
+
+.buy .sub-buy ul li{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    /* line-height: 20px; */
+    line-height: 44px;
+    margin-left: 10px;
+    /* background-color: red; */
+    float: left;
+    color: white;
+    font-size: 18px;
+}
+
+.buy .sub-buy .addcar{
+    background-color: rgb(235, 100, 21);
+}
+.buy .sub-buy .nowbuy{
+    background-color: red;
+}
